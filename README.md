@@ -5,15 +5,15 @@ A PHP library for generating PAY by square payment QR codes for Slovak payment s
 [![PHPUnit Tests](https://github.com/feldsam-inc/paybysquare-php/actions/workflows/phpunit.yml/badge.svg)](https://github.com/feldsam-inc/paybysquare-php/actions/workflows/phpunit.yml)
 [![Latest Stable Version](https://img.shields.io/packagist/v/feldsam-inc/paybysquare-php.svg)](https://packagist.org/packages/feldsam-inc/paybysquare-php)
 [![Total Downloads](https://img.shields.io/packagist/dt/feldsam-inc/paybysquare-php.svg)](https://packagist.org/packages/feldsam-inc/paybysquare-php)
-[![License](https://img.shields.io/packagist/l/feldsam-inc/paybysquare-php.svg)](https://packagist.org/packages/feldsam-inc/paybysquare-php)
+[![License](https://img.shields.io/github/license/feldsam-inc/paybysquare-php)](https://github.com/feldsam-inc/paybysquare-php/blob/main/LICENSE)
 
 ### PHP Compatibility
 
-[![PHP 7.4](https://github.com/feldsam-inc/paybysquare-php/actions/workflows/phpunit.yml/badge.svg?branch=main&job=php74)](https://github.com/feldsam-inc/paybysquare-php/actions/workflows/phpunit.yml)
-[![PHP 8.0](https://github.com/feldsam-inc/paybysquare-php/actions/workflows/phpunit.yml/badge.svg?branch=main&job=php80)](https://github.com/feldsam-inc/paybysquare-php/actions/workflows/phpunit.yml)
-[![PHP 8.1](https://github.com/feldsam-inc/paybysquare-php/actions/workflows/phpunit.yml/badge.svg?branch=main&job=php81)](https://github.com/feldsam-inc/paybysquare-php/actions/workflows/phpunit.yml)
-[![PHP 8.2](https://github.com/feldsam-inc/paybysquare-php/actions/workflows/phpunit.yml/badge.svg?branch=main&job=php82)](https://github.com/feldsam-inc/paybysquare-php/actions/workflows/phpunit.yml)
-[![PHP 8.3](https://github.com/feldsam-inc/paybysquare-php/actions/workflows/phpunit.yml/badge.svg?branch=main&job=php83)](https://github.com/feldsam-inc/paybysquare-php/actions/workflows/phpunit.yml)
+[![PHP 7.4](https://img.shields.io/github/actions/workflow/status/feldsam-inc/paybysquare-php/phpunit.yml?branch=main&label=PHP%207.4)](https://github.com/feldsam-inc/paybysquare-php/actions/workflows/phpunit.yml)
+[![PHP 8.0](https://img.shields.io/github/actions/workflow/status/feldsam-inc/paybysquare-php/phpunit.yml?branch=main&label=PHP%208.0)](https://github.com/feldsam-inc/paybysquare-php/actions/workflows/phpunit.yml)
+[![PHP 8.1](https://img.shields.io/github/actions/workflow/status/feldsam-inc/paybysquare-php/phpunit.yml?branch=main&label=PHP%208.1)](https://github.com/feldsam-inc/paybysquare-php/actions/workflows/phpunit.yml)
+[![PHP 8.2](https://img.shields.io/github/actions/workflow/status/feldsam-inc/paybysquare-php/phpunit.yml?branch=main&label=PHP%208.2)](https://github.com/feldsam-inc/paybysquare-php/actions/workflows/phpunit.yml)
+[![PHP 8.3](https://img.shields.io/github/actions/workflow/status/feldsam-inc/paybysquare-php/phpunit.yml?branch=main&label=PHP%208.3)](https://github.com/feldsam-inc/paybysquare-php/actions/workflows/phpunit.yml)
 
 ## Requirements
 
