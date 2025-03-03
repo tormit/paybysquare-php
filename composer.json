@@ -1,6 +1,14 @@
 {
-    "name": "paybysquare/php",
+    "name": "feldsam-inc/paybysquare-php",
     "description": "PHP library for generating PAY by square payment QR codes",
+    "keywords": [
+        "paybysquare",
+        "qr-code",
+        "payment",
+        "qr-payment",
+        "slovakia",
+        "czech-republic"
+    ],
     "type": "library",
     "license": "MIT",
     "authors": [
