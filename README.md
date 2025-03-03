@@ -2,7 +2,6 @@
 
 A PHP library for generating PAY by square payment QR codes for Slovak payment systems.
 
-[![PHPUnit Tests](https://github.com/feldsam-inc/paybysquare-php/actions/workflows/phpunit.yml/badge.svg)](https://github.com/feldsam-inc/paybysquare-php/actions/workflows/phpunit.yml)
 [![Latest Stable Version](https://img.shields.io/packagist/v/feldsam-inc/paybysquare-php.svg)](https://packagist.org/packages/feldsam-inc/paybysquare-php)
 [![Total Downloads](https://img.shields.io/packagist/dt/feldsam-inc/paybysquare-php.svg)](https://packagist.org/packages/feldsam-inc/paybysquare-php)
 [![License](https://img.shields.io/github/license/feldsam-inc/paybysquare-php)](https://github.com/feldsam-inc/paybysquare-php/blob/master/LICENSE)
@@ -14,6 +13,7 @@ A PHP library for generating PAY by square payment QR codes for Slovak payment s
 [![PHP 8.1](https://github.com/feldsam-inc/paybysquare-php/actions/workflows/php81.yml/badge.svg)](https://github.com/feldsam-inc/paybysquare-php/actions/workflows/php81.yml)
 [![PHP 8.2](https://github.com/feldsam-inc/paybysquare-php/actions/workflows/php82.yml/badge.svg)](https://github.com/feldsam-inc/paybysquare-php/actions/workflows/php82.yml)
 [![PHP 8.3](https://github.com/feldsam-inc/paybysquare-php/actions/workflows/php83.yml/badge.svg)](https://github.com/feldsam-inc/paybysquare-php/actions/workflows/php83.yml)
+
 ## Requirements
 
 - PHP 7.4 or higher
