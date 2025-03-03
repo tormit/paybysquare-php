@@ -1,0 +1,30 @@
+{
+    "name": "paybysquare/php",
+    "description": "PHP library for generating PAY by square payment QR codes",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "FELDSAM s.r.o.",
+            "email": "support@feldhost.cz"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "endroid/qr-code": "^4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PayBySquare\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PayBySquare\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable"
+}
