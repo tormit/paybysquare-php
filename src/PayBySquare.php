@@ -4,8 +4,6 @@ namespace PayBySquare;
 
 use Endroid\QrCode\Builder\Builder;
 use Endroid\QrCode\Encoding\Encoding;
-use Endroid\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelHigh;
-use Endroid\QrCode\RoundBlockSizeMode\RoundBlockSizeModeMargin;
 use Endroid\QrCode\Writer\PngWriter;
 use Endroid\QrCode\Writer\SvgWriter;
 use Endroid\QrCode\Writer\WriterInterface;
@@ -158,10 +156,10 @@ class PayBySquare
             ->writerOptions([])
             ->data($payBySquareData)
             ->encoding(new Encoding('UTF-8'))
-            ->errorCorrectionLevel(new ErrorCorrectionLevelHigh())
+            ->errorCorrectionLevel(\Endroid\QrCode\ErrorCorrectionLevel::High)
             ->size(isset($options['size']) ? $options['size'] : 300)
             ->margin(isset($options['margin']) ? $options['margin'] : 10)
-            ->roundBlockSizeMode(new RoundBlockSizeModeMargin())
+            ->roundBlockSizeMode(\Endroid\QrCode\RoundBlockSizeMode::Margin)
             ->build();
             
         return $result->getString();
@@ -333,10 +331,10 @@ class PayBySquare
             ->writerOptions([])
             ->data($payBySquareData)
             ->encoding(new Encoding('UTF-8'))
-            ->errorCorrectionLevel(new ErrorCorrectionLevelHigh())
+            ->errorCorrectionLevel(\Endroid\QrCode\ErrorCorrectionLevel::High)
             ->size($size)
             ->margin($margin)
-            ->roundBlockSizeMode(new RoundBlockSizeModeMargin());
+            ->roundBlockSizeMode(\Endroid\QrCode\RoundBlockSizeMode::Margin);
             
         // Set foreground color if provided
         if (isset($options['foregroundColor'])) {
